@@ -1,0 +1,31 @@
+{
+  "name": "mysql-database-review",
+  "version": "1.0.0",
+  "description": "mysql review workshop",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilnmartin/mysql-database-review.git"
+  },
+  "author": "Neil Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neilnmartin/mysql-database-review/issues"
+  },
+  "homepage": "https://github.com/neilnmartin/mysql-database-review#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "sequelize": "^4.39.0"
+  }
+}
