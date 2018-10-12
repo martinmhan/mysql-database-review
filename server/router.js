@@ -4,7 +4,10 @@ const controller = require("./controller");
 router
   .route("/")
   .get(controller.get)
-  .post(controller.post)
+  .post(controller.post);
+
+router
+  .route("/:id")
   .put(controller.update)
   .delete(controller.delete);
 
