@@ -1,8 +1,9 @@
 # mysql-database-review
 
-MySQL Database Review
+## MySQL Database Review using Sequelize
 
 npm install
+
 npm start
 
 start mysql server + mysql shell
