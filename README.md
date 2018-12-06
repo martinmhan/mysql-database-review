@@ -10,7 +10,8 @@ start mysql server + mysql shell
 
 ### Exercise 1
 
-In your database folder, create an index file.
+Create a database folder. 
+In your database folder create an index file.
 In your shell, create a mysql database.
 Set up Sequelize to establish a connection to the mysql database, and export the connection.
 
