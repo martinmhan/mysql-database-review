@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "data": "node database/seed/seedData.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
     "morgan": "^1.9.1",
     "mysql": "^2.16.0",
     "mysql2": "^1.6.1",
-    "nodemon": "^1.18.4",
+    "nodemon": "^1.18.7",
     "path": "^0.12.7",
     "sequelize": "^4.39.0"
   }
